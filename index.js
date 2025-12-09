@@ -3,9 +3,9 @@ import {
   ActionRowBuilder, ButtonBuilder, ButtonStyle
 } from "discord.js";
 
-const BUG_CHANNEL_ID = "process.env.BUG_CHANNEL_ID";
-const BUG_CATEGORY_ID = "process.env.BUG_CATEGORY_ID";
-const ARCHIVE_CATEGORY_ID = "process.env.ARCHIVE_CATEGORY_ID";
+const BUG_CHANNEL_ID = process.env.BUG_CHANNEL_ID;
+const BUG_CATEGORY_ID = process.env.BUG_CATEGORY_ID;
+const ARCHIVE_CATEGORY_ID = process.env.ARCHIVE_CATEGORY_ID;
 
 
 // If using Node 18+, fetch is built-in. If not, uncomment:
